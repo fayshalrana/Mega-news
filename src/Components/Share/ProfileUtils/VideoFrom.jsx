@@ -1,16 +1,16 @@
 import React, { useRef } from 'react'
 import { FaRegImage, FaPlus, FaEyeDropper, FaCode, FaAlignLeft, FaLink, FaRegFolderClosed, FaPaperPlane, FaFilm } from "react-icons/fa6";
 import { FaEye } from "react-icons/fa";
-import petImg from '../../../../public/Images/social/pet.jpeg'
-import petImg1 from '../../../../public/Images/social/bar.jpeg'
-import petImg2 from '../../../../public/Images/social/boxer.jpeg'
-import petImg3 from '../../../../public/Images/social/capul.jpeg'
-import petImg4 from '../../../../public/Images/social/car.jpeg'
-import petImg5 from '../../../../public/Images/social/headphone.jpeg'
-import petImg6 from '../../../../public/Images/social/hotDog.jpeg'
-import petImg7 from '../../../../public/Images/social/light.jpeg'
-import petImg8 from '../../../../public/Images/social/pet.jpeg'
-import petImg9 from '../../../../public/Images/social/boxer.jpeg'
+import petImg from '../../../../public/Images/social/pet.webp'
+import petImg1 from '../../../../public/Images/social/bar.webp'
+import petImg2 from '../../../../public/Images/social/boxer.webp'
+import petImg3 from '../../../../public/Images/social/capul.webp'
+import petImg4 from '../../../../public/Images/social/car.webp'
+import petImg5 from '../../../../public/Images/social/headphone.webp'
+import petImg6 from '../../../../public/Images/social/hotdog.webp'
+import petImg7 from '../../../../public/Images/social/light.webp'
+import petImg8 from '../../../../public/Images/social/pet.webp'
+import petImg9 from '../../../../public/Images/social/boxer.webp'
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { Link } from 'react-router-dom';
 const VideoFrom = () => {
@@ -32,11 +32,11 @@ const VideoFrom = () => {
                     <div className="flex gap-[23px] flex-col lg:flex-row">
                         <div className="flex flex-col gap-[15px] w-full lg:w-[55%]">
                             <label className='text-[16px] font-[600] leading-normal capitalize' htmlFor="">Title</label>
-                            <input className='w-full border-none py-[5px] px-[15px] focus:ring-0 bg-gray-100 rounded-[8px]' type="text" placeholder='Add Title' required/>
+                            <input className='w-full border-none py-[5px] px-[15px] focus:ring-0 bg-gray-100 rounded-[8px]' type="text" placeholder='Add Title' required />
                         </div>
                         <div className="flex flex-col gap-[15px] w-full lg:w-[45%]">
                             <label className='text-[16px] font-[600] leading-normal capitalize' htmlFor="">Add tags</label>
-                            <input className='w-full border-none py-[5px] px-[15px] focus:ring-0 bg-gray-100 rounded-[8px]' type="text" placeholder='Add tags' required/>
+                            <input className='w-full border-none py-[5px] px-[15px] focus:ring-0 bg-gray-100 rounded-[8px]' type="text" placeholder='Add tags' required />
                         </div>
                     </div>
                     <div className="">
@@ -71,61 +71,61 @@ const VideoFrom = () => {
                             <div className="w-[111px] md:w-full h-[111px] md:h-[150px] lg:h-[90px] rounded-[12px] overflow-hidden relative group">
                                 <img className='w-full h-full object-cover' src={petImg} alt="" />
                                 <div className="w-full h-full opacity-0 group-hover:opacity-100 invisible group-hover:visible transform duration-200 absolute top-0 left-0 backdrop-blur-sm bg-slate-100/40 flex justify-center items-center">
-                                <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
+                                    <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
                                 </div>
                             </div>
                             <div className="w-[111px] md:w-full h-[111px] md:h-[150px] lg:h-[90px] rounded-[12px] overflow-hidden relative group">
                                 <img className='w-full h-full object-cover' src={petImg1} alt="" />
                                 <div className="w-full h-full opacity-0 group-hover:opacity-100 invisible group-hover:visible transform duration-200 absolute top-0 left-0 backdrop-blur-sm bg-slate-100/40 flex justify-center items-center">
-                                <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
+                                    <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
                                 </div>
                             </div>
                             <div className="w-[111px] md:w-full h-[111px] md:h-[150px] lg:h-[90px] rounded-[12px] overflow-hidden relative group">
                                 <img className='w-full h-full object-cover' src={petImg2} alt="" />
                                 <div className="w-full h-full opacity-0 group-hover:opacity-100 invisible group-hover:visible transform duration-200 absolute top-0 left-0 backdrop-blur-sm bg-slate-100/40 flex justify-center items-center">
-                                <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
+                                    <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
                                 </div>
                             </div>
                             <div className="w-[111px] md:w-full h-[111px] md:h-[150px] lg:h-[90px] rounded-[12px] overflow-hidden relative group">
                                 <img className='w-full h-full object-cover' src={petImg3} alt="" />
                                 <div className="w-full h-full opacity-0 group-hover:opacity-100 invisible group-hover:visible transform duration-200 absolute top-0 left-0 backdrop-blur-sm bg-slate-100/40 flex justify-center items-center">
-                                <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
+                                    <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
                                 </div>
                             </div>
                             <div className="w-[111px] md:w-full h-[111px] md:h-[150px] lg:h-[90px] rounded-[12px] overflow-hidden relative group">
                                 <img className='w-full h-full object-cover' src={petImg4} alt="" />
                                 <div className="w-full h-full opacity-0 group-hover:opacity-100 invisible group-hover:visible transform duration-200 absolute top-0 left-0 backdrop-blur-sm bg-slate-100/40 flex justify-center items-center">
-                                <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
+                                    <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
                                 </div>
                             </div>
                             <div className="w-[111px] md:w-full h-[111px] md:h-[150px] lg:h-[90px] rounded-[12px] overflow-hidden relative group">
                                 <img className='w-full h-full object-cover' src={petImg5} alt="" />
                                 <div className="w-full h-full opacity-0 group-hover:opacity-100 invisible group-hover:visible transform duration-200 absolute top-0 left-0 backdrop-blur-sm bg-slate-100/40 flex justify-center items-center">
-                                <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
+                                    <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
                                 </div>
                             </div>
                             <div className="w-[111px] md:w-full h-[111px] md:h-[150px] lg:h-[90px] rounded-[12px] overflow-hidden relative group">
                                 <img className='w-full h-full object-cover' src={petImg6} alt="" />
                                 <div className="w-full h-full opacity-0 group-hover:opacity-100 invisible group-hover:visible transform duration-200 absolute top-0 left-0 backdrop-blur-sm bg-slate-100/40 flex justify-center items-center">
-                                <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
+                                    <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
                                 </div>
                             </div>
                             <div className="w-[111px] md:w-full h-[111px] md:h-[150px] lg:h-[90px] rounded-[12px] overflow-hidden relative group">
                                 <img className='w-full h-full object-cover' src={petImg7} alt="" />
                                 <div className="w-full h-full opacity-0 group-hover:opacity-100 invisible group-hover:visible transform duration-200 absolute top-0 left-0 backdrop-blur-sm bg-slate-100/40 flex justify-center items-center">
-                                <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
+                                    <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
                                 </div>
                             </div>
                             <div className="w-[111px] md:w-full h-[111px] md:h-[150px] lg:h-[90px] rounded-[12px] overflow-hidden relative group md:hidden lg:inline">
                                 <img className='w-full h-full object-cover' src={petImg8} alt="" />
                                 <div className="w-full h-full opacity-0 group-hover:opacity-100 invisible group-hover:visible transform duration-200 absolute top-0 left-0 backdrop-blur-sm bg-slate-100/40 flex justify-center items-center">
-                                <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
+                                    <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
                                 </div>
                             </div>
                             <div className="w-[111px] md:w-full h-[111px] md:h-[150px] lg:h-[90px] rounded-[12px] overflow-hidden relative group md:hidden lg:inline">
                                 <img className='w-full h-full object-cover' src={petImg9} alt="" />
                                 <div className="w-full h-full opacity-0 group-hover:opacity-100 invisible group-hover:visible transform duration-200 absolute top-0 left-0 backdrop-blur-sm bg-slate-100/40 flex justify-center items-center">
-                                <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
+                                    <RiDeleteBin6Line className='text-[40px] text-white cursor-pointer' />
                                 </div>
                             </div>
                         </div>

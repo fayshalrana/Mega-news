@@ -1,14 +1,14 @@
 import { FaInstagram, FaTwitter } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-import bar from "../../../../public/Images/social/bar.jpeg";
-import boxer from "../../../../public/Images/social/boxer.jpeg";
-import cpl from "../../../../public/Images/social/capul.jpeg";
-import car from "../../../../public/Images/social/car.jpeg";
-import Dog from "../../../../public/Images/social/dog.jpeg";
-import headphone from "../../../../public/Images/social/headphone.jpeg";
-import hotDog from "../../../../public/Images/social/hotDog.jpeg";
-import light from "../../../../public/Images/social/light.jpeg";
-import pet from "../../../../public/Images/social/pet.jpeg";
+import bar from "../../../../public/Images/social/bar.webp";
+import boxer from "../../../../public/Images/social/boxer.webp";
+import cpl from "../../../../public/Images/social/capul.webp";
+import car from "../../../../public/Images/social/car.webp";
+import Dog from "../../../../public/Images/social/dog.webp";
+import headphone from "../../../../public/Images/social/headphone.webp";
+import hotDog from "../../../../public/Images/social/hotdog.webp";
+import light from "../../../../public/Images/social/light.webp";
+import pet from "../../../../public/Images/social/pet.webp";
 import MobileFooter from "./MobileFooter";
 import { Link } from "react-router-dom";
 
@@ -45,7 +45,7 @@ const Footer = () => {
                       required
                     />
                     <button type="submit">
-                    <IoMail className="text-[20px] text-[#3E3232BF] cursor-pointer" />
+                      <IoMail className="text-[20px] text-[#3E3232BF] cursor-pointer" />
                     </button>
                   </form>
                 </div>
@@ -58,13 +58,13 @@ const Footer = () => {
                     Categories
                   </h3>
                   <ul className="flex flex-col gap-[13px] xl:gap-[9px] pb-[30px]">
-                    <Link to="/culture"  className="text-[12px] font-[400] leading-normal capitalize text-[#3E3232] cursor-pointer">
+                    <Link to="/culture" className="text-[12px] font-[400] leading-normal capitalize text-[#3E3232] cursor-pointer">
                       Culture
                     </Link>
                     <Link to="/fashion" className="text-[12px] font-[400] leading-normal capitalize text-[#3E3232] cursor-pointer">
                       Fashion
                     </Link>
-                    <Link to="/featured"  className="text-[12px] font-[400] leading-normal capitalize text-[#3E3232] cursor-pointer">
+                    <Link to="/featured" className="text-[12px] font-[400] leading-normal capitalize text-[#3E3232] cursor-pointer">
                       Featured
                     </Link>
                     <Link to="/food" className="text-[12px] font-[400] leading-normal capitalize text-[#3E3232] cursor-pointer">
@@ -151,90 +151,90 @@ const Footer = () => {
               </h3>
               <div className="grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-[8px] 2xl:gap-[24px]">
                 <div className="rounded-[12px] overflow-hidden lg:w-full lg:h-[70px] xl:h-[122px] 2xl:h-[100px]">
-                 <Link to="/instagram">
-                 <img
-                    className="w-full h-full object-cover"
-                    src={pet}
-                    alt=""
-                  /></Link>
+                  <Link to="/instagram">
+                    <img
+                      className="w-full h-full object-cover"
+                      src={pet}
+                      alt=""
+                    /></Link>
                 </div>
                 <div className="rounded-[12px] overflow-hidden lg:w-full lg:h-[70px] xl:h-[122px] 2xl:h-[100px]">
-                <Link to="/instagram"><img
+                  <Link to="/instagram"><img
                     className="w-full h-full object-cover"
                     src={light}
                     alt=""
                   /></Link>
-                  
+
                 </div>
                 <div className="rounded-[12px] overflow-hidden lg:w-full lg:h-[70px] xl:h-[122px] 2xl:h-[100px]">
-                   <Link to="/instagram">
-                  <img
-                    className="w-full h-full object-cover"
-                    src={bar}
-                    alt=""
+                  <Link to="/instagram">
+                    <img
+                      className="w-full h-full object-cover"
+                      src={bar}
+                      alt=""
                     />
-                    
-                   </Link>
+
+                  </Link>
                 </div>
                 <div className="rounded-[12px] overflow-hidden lg:w-full lg:h-[70px] xl:h-[122px] 2xl:h-[100px]">
-                   <Link to="/instagram">
-                  <img
-                    className="w-full h-full object-cover"
-                    src={cpl}
-                    alt=""
+                  <Link to="/instagram">
+                    <img
+                      className="w-full h-full object-cover"
+                      src={cpl}
+                      alt=""
                     />
-                    
-                   </Link>
+
+                  </Link>
                 </div>
                 <div className="rounded-[12px] overflow-hidden lg:w-full lg:h-[70px] xl:h-[122px] 2xl:h-[100px]">
-                   <Link to="/instagram">
-                  <img
-                    className="w-full h-full object-cover"
-                    src={boxer}
-                    alt=""
+                  <Link to="/instagram">
+                    <img
+                      className="w-full h-full object-cover"
+                      src={boxer}
+                      alt=""
                     />
-                    
-                   </Link>
+
+                  </Link>
                 </div>
                 <div className="rounded-[12px] overflow-hidden lg:w-full lg:h-[70px] xl:h-[122px] 2xl:h-[100px]">
-                   <Link to="/instagram">
-                  <img
-                    className="w-full h-full object-cover"
-                    src={car}
-                    alt=""
+                  <Link to="/instagram">
+                    <img
+                      className="w-full h-full object-cover"
+                      src={car}
+                      alt=""
                     />
-                    
-                   </Link>
+
+                  </Link>
                 </div>
                 <div className="rounded-[12px] overflow-hidden lg:w-full lg:h-[70px] xl:h-[122px] 2xl:h-[100px]">
-                   <Link to="/instagram">
-                  <img
-                    className="w-full h-full object-cover"
-                    src={headphone}
-                    alt=""
+                  <Link to="/instagram">
+                    <img
+                      className="w-full h-full object-cover"
+                      src={headphone}
+                      alt=""
                     />
-                    
-                   </Link>
+
+                  </Link>
                 </div>
                 <div className="rounded-[12px] overflow-hidden lg:w-full lg:h-[70px] xl:h-[122px] 2xl:h-[100px]">
-                   <Link to="/instagram">
-                  <img
-                    className="w-full h-full object-cover"
-                    src={hotDog}
-                    alt=""
+                  <Link to="/instagram">
+                    <img
+                      className="w-full h-full object-cover"
+                      src={hotDog}
+                      alt=""
                     />
-                    
-                   </Link>
+
+                  </Link>
                 </div>
                 <div className="rounded-[12px] overflow-hidden lg:w-full lg:h-[70px] xl:h-[122px] 2xl:h-[100px]">
-                   <Link to="/instagram">
-                  <img
-                    className="w-full h-full object-cover"
-                    src={Dog}
-                    alt=""
+                  <Link to="/instagram">
+                    <img
+                      className="w-full h-full object-cover"
+                      src={Dog}
+                      alt=""
                     />
-                    
-                   </Link>
+
+                  </Link>
                 </div>
               </div>
             </div>

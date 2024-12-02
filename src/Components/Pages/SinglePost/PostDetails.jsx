@@ -3,8 +3,8 @@ import { BsCalendarDate } from "react-icons/bs";
 import { FaRegCommentDots } from "react-icons/fa";
 import { CiFolderOn } from "react-icons/ci";
 import { Link } from 'react-router-dom';
-import detailBanner from '../../../../public/Images/Post/post3.jpeg'
-import detailBanner2 from '../../../../public/Images/Post/post18.jpeg'
+import detailBanner from '../../../../public/Images/Post/post3.webp'
+import detailBanner2 from '../../../../public/Images/Post/post18.webp'
 
 const PostDetails = ({ posts }) => {
     const post = posts.slice(0, 1)
@@ -39,7 +39,7 @@ const PostDetails = ({ posts }) => {
                         Part of the charm of a bed and breakfast is the uniqueness; art, décor, and food are integrated to create a complete experience. For example, the Fife and Drum retains the colonial feel of the area in all its guest rooms. Special features include antique furnishings, elegant four poster beds in some guest rooms, as well folk art and artifacts from the restoration period of the historic area available for guests to enjoy.</p>
                 </div>
             </div>
-           
+
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Manchester from '../../../../../public/Images/Match/Manchester_City_FC_badge.svg.png';
-import Arsenal from '../../../../../public/Images/Match/Arsenal_FC.svg.png';
+import Manchester from '../../../../../public/Images/Match/Manchester_City.webp';
+import Arsenal from '../../../../../public/Images/Match/Arsenal_FC.svg.webp';
 
 const Match = () => {
   const targetDate = '2024-12-01T00:00:00Z';

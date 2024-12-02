@@ -2,11 +2,11 @@ import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io'
 import { Link } from 'react-router-dom'
 import bannerImg from '../../../../public/Images/aboutVideo.png'
-import team1 from '../../../../public/Images/team/team2.png'
-import team2 from '../../../../public/Images/team/team7.jpeg'
-import team3 from '../../../../public/Images/team/team6.jpeg'
-import team4 from '../../../../public/Images/team/team5.jpeg'
-import team5 from '../../../../public/Images/team/team1.jpeg'
+import team1 from '../../../../public/Images/team/team2.webp'
+import team2 from '../../../../public/Images/team/team7.webp'
+import team3 from '../../../../public/Images/team/team6.webp'
+import team4 from '../../../../public/Images/team/team5.webp'
+import team5 from '../../../../public/Images/team/team1.webp'
 import { FaPlay } from "react-icons/fa6";
 import { MdOutlineEmail, MdOutlinePhoneAndroid, MdOutlineWatchLater } from "react-icons/md";
 import { FaFax } from "react-icons/fa";

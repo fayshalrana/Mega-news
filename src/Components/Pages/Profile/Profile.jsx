@@ -8,13 +8,13 @@ import PostItem from '../Home/Post/PostItem';
 import NewPostItem from '../Home/NewPost/NewPostItem';
 
 import banner from '../../../../public/Images/aboutVideo.png'
-import user from '../../../../public/Images/team/team4.jpeg'
+import user from '../../../../public/Images/team/team4.webp'
 
 const Profile = () => {
   const navigate = useNavigate()
   const currentPage = useLocation()
 
-  const handleEditPage = ()=>{
+  const handleEditPage = () => {
     navigate('/edit-profile')
   }
   return (
@@ -48,7 +48,7 @@ const Profile = () => {
             <Link to="/profile" className='py-[10px] pl-[16px] pr-[20px] text-[14px] absolute right-0 md:hidden font-[500] leading-[20px] capitalize text-white bg-[#F81539BF]/75 flex items-center gap-[8px] rounded-[12px]'><FaUserEdit /></Link>
           </div>
 
-      {/* For Desktop version  */}
+          {/* For Desktop version  */}
           <div className='lg:flex gap-[60px] items-center hidden'>
             <NavLink to="/profile" className={`flex items-center gap-[8px] text-[16px] font-[600] leading-[20px] capitalize text-[#3E3232BF]/75 relative ${currentPage.pathname == "/profile" ? " before:content-[''] before:absolute before:h-[4px] before:rounded-[12px] before:w-[10px] before:bg-[#F81539] before:left-0 before:-bottom-[2px]" : ""}`}>marked</NavLink>
             <NavLink to="/profile/send-post" className={`flex items-center gap-[8px] text-[16px] font-[600] leading-[20px] capitalize text-[#3E3232BF]/75 relative ${currentPage.pathname == "/profile/send-post" || currentPage.pathname === "/profile/send-post/send-video" ? " before:content-[''] before:absolute before:h-[4px] before:rounded-[12px] before:w-[10px] before:bg-[#F81539] before:left-0 before:-bottom-[2px]" : ""}`}>Send post</NavLink>

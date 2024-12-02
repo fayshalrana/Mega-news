@@ -9,7 +9,8 @@ const TrandyPosts = () => {
   const { posts } = useContext(postContext)
   return (
     <div className="bg-white">
-      <div className='container mx-auto pt-[70px] overflow-hidden'>
+      <div className="container mx-auto ">
+      <div className='pt-[70px] overflow-hidden'>
         <h2 className='section_header'>Trendy Posts</h2>
 
         <div className="trendyPosts pb-[4rem] md:pb-0">
@@ -48,6 +49,8 @@ const TrandyPosts = () => {
         </div>
 
       </div>
+      </div>
+    
     </div>
   )
 }

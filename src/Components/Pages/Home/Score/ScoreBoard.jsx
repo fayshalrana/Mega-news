@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Arsenal from '../../../../../public/Images/Match/Arsenal_FC.svg.png'
-import Chelsea from '../../../../../public/Images/Match/Chelsea_FC.svg.png'
-import Liverpool from '../../../../../public/Images/Match/Liverpool_FC.svg.png'
-import Manchester from '../../../../../public/Images/Match/Manchester_City_FC_badge.svg.png'
-import Manchesterunited from '../../../../../public/Images/Match/Manchester_United_FC_crest.svg.png'
-import tottenham from '../../../../../public/Images/Match/tottenham-hotspur-logo-6E52432EA2-seeklogo.com.png'
+import Arsenal from '../../../../../public/Images/Match/Arsenal_FC.svg.webp'
+import Chelsea from '../../../../../public/Images/Match/Chelsea_FC.webp'
+import Liverpool from '../../../../../public/Images/Match/Liverpool_FC.webp'
+import Manchester from '../../../../../public/Images/Match/Manchester_City.webp'
+import Manchesterunited from '../../../../../public/Images/Match/Manchester_United_FC_crest.webp'
+import tottenham from '../../../../../public/Images/Match/tottenham-hotspur.webp'
 
 const ScoreBoard = () => {
     return (

@@ -2,7 +2,7 @@ import React from 'react'
 import ScoreBoard from './ScoreBoard'
 import Calender from './Calender'
 import Match from './Match'
-import matchBg from '../../../../../public/Images/category/cat5.jpeg'
+import matchBg from '../../../../../public/Images/category/cat5.webp'
 const Score = () => {
   return (
     <div className='mt-[70px] lg:mt-[20px]' style={{ background: `url(${matchBg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>

@@ -1,19 +1,19 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation} from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 import "swiper/css/navigation";
 import 'swiper/css';
-import img1 from '../../../../../public/Images/social/pet.jpeg'
+import img1 from '../../../../../public/Images/social/pet.webp'
 import './Category.css'
 import { Link, useNavigate } from 'react-router-dom';
 import { useRef } from 'react';
 
-import cat1 from '../../../../../public/Images/category/cat1.jpeg'
-import cat2 from '../../../../../public/Images/category/cat2.jpeg'
-import cat3 from '../../../../../public/Images/category/cat3.jpeg'
-import cat4 from '../../../../../public/Images/category/cat4.jpeg'
-import cat5 from '../../../../../public/Images/category/cat5.jpeg'
-import cat6 from '../../../../../public/Images/category/cat6.jpeg'
-import cat7 from '../../../../../public/Images/category/cat7.jpeg'
+import cat1 from '../../../../../public/Images/category/cat1.webp'
+import cat2 from '../../../../../public/Images/category/cat2.webp'
+import cat3 from '../../../../../public/Images/category/cat3.webp'
+import cat4 from '../../../../../public/Images/category/cat4.webp'
+import cat5 from '../../../../../public/Images/category/cat5.webp'
+import cat6 from '../../../../../public/Images/category/cat6.webp'
+import cat7 from '../../../../../public/Images/category/cat7.webp'
 
 
 const Category = () => {
@@ -75,21 +75,21 @@ const Category = () => {
             image: cat7,
             name: "abstract"
         },
-        
+
     ]
     const handleSlideChange = () => {
         const activeIndex = swiperrRef.current.swiper.realIndex;
-    
+
         // Your custom logic for showing/hiding arrows
         const leftArrow = document.querySelector('.swiper-button-prev');
         const rightArrow = document.querySelector('.swiper-button-next');
-    
+
         if (activeIndex === 0) {
             leftArrow.style.display = 'none';
         } else {
             leftArrow.style.display = 'block';
         }
-    
+
         if (category.length === 1 || activeIndex === category.length - 1) {
             // Hide the right arrow if there is only one slide or if at the last slide
             rightArrow.style.display = 'none';
@@ -113,11 +113,11 @@ const Category = () => {
                 {
                     category.map((item, idx) => (<SwiperSlide key={idx}>
                         <Link to="/category">
-                        <div className='rounded-[12px] overflow-hidden cursor-pointer' style={{ backgroundImage: `url(${item.image})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat:'no-repeat' }}>
-                            <div className="py-[14px] w-full h-full rounded-[12px] bg-black/10 flex justify-center items-center backdrop-blur-sm">
-                                <p to='/category' className='text-white text-[16px] lg:text-[10px] font-[500] leading-normal capitalize'>#{item.name}</p>
+                            <div className='rounded-[12px] overflow-hidden cursor-pointer' style={{ backgroundImage: `url(${item.image})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+                                <div className="py-[14px] w-full h-full rounded-[12px] bg-black/10 flex justify-center items-center backdrop-blur-sm">
+                                    <p to='/category' className='text-white text-[16px] lg:text-[10px] font-[500] leading-normal capitalize'>#{item.name}</p>
+                                </div>
                             </div>
-                        </div>
                         </Link>
                     </SwiperSlide>))
                 }
