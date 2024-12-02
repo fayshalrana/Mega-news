@@ -1,0 +1,9 @@
+tspan{
+    font-size: 14px;
+}
+.recharts-cartesian-axis-line{
+    opacity: 0;
+}
+.recharts-cartesian-axis-tick-line{
+    display: none;
+}

@@ -1,0 +1,55 @@
+.video .swiper {
+    overflow: visible;
+}
+.video .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    background: rgba(128, 128, 128, 0.123);
+    border-radius: 12px;
+    top: -2.5rem;
+    left: 94.1%;
+}
+.video .swiper-button-prev:after, .swiper-button-next:after {
+    content: 'prev';
+    font-size: .8rem;
+    font-weight: 600;
+    color: black;
+}
+.video .swiper-button-next{
+    width: 40px;
+    height: 40px;
+    background: rgba(128, 128, 128, 0.123);
+    border-radius: 12px;
+    top: -2.5rem;
+    right: 0;
+}
+.video .swiper-button-next:after {
+    content: 'next';
+    font-size: .8rem;
+    font-weight: 600;
+    color: black;
+}
+.video .swiper-slide {
+    width: 80%;
+  }
+  
+
+  @media (min-width:1024px){
+    .video .swiper-button-prev {
+        left: 90.1%;
+    }
+    .video .swiper-slide {
+        width: 90%;
+      }
+  }
+  @media (min-width:1280px){
+    .video .swiper-button-prev {
+     left: 93.1%;
+     top: -2rem;
+ }
+ .video .swiper-button-next {
+     top: -2rem;
+ }
+
+}
+  
