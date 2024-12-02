@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import chatImg from '../../../../public/Images/profileChat.png'
+import chatImg from '../../../../public/Images/profileChat.webp'
 import { BsEmojiAngry } from "react-icons/bs";
 import PostItem from '../../Pages/Home/Post/PostItem';
 import { postContext } from '../../../../utils/Posts/PostsProvider';
@@ -15,7 +15,7 @@ const Posts = () => {
                     <h2 className='relative  ml-[10px] capitalize text-[20px] font-[600] before:content-[""] before:absolute before:h-[10px] before:rounded-[12px] before:w-[4px] before:bg-[#F81539] before:-left-[8px] before:top-[50%] before:transform before:translate-y-[-50%]'>video post</h2>
                     <div className="px-[33px] py-[58px] rounded-[12px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] overflow-x-auto">
                         <div className="w-full h-full">
-                           <ProfileChart/>
+                            <ProfileChart />
                         </div>
                     </div>
                 </div>
@@ -74,9 +74,9 @@ const Posts = () => {
             <div className="pb-[4rem] md-pb-0">
                 <h2 className='relative  ml-[10px] capitalize text-[20px] font-[600] before:content-[""] before:absolute before:h-[10px] before:rounded-[12px] before:w-[4px] before:bg-[#F81539] before:-left-[8px] before:top-[50%] before:transform before:translate-y-[-50%]'>Your post</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mt-[30px] gap-[24px]">
-                {
-            posts.slice(0, 8).map((post, idx) => <PostItem key={idx} data={post} />)
-          }
+                    {
+                        posts.slice(0, 8).map((post, idx) => <PostItem key={idx} data={post} />)
+                    }
                 </div>
             </div>
         </>

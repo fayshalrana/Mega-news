@@ -8,7 +8,7 @@ import { postContext } from '../../../../utils/Posts/PostsProvider'
 import PostItem from '../Home/Post/PostItem';
 import NewPostItem from '../Home/NewPost/NewPostItem';
 
-import banner from '../../../../public/Images/aboutVideo.png'
+import banner from '../../../../public/Images/aboutVideo.webp'
 import user from '../../../../public/Images/team/team4.webp'
 
 

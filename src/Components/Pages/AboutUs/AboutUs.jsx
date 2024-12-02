@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io'
 import { Link } from 'react-router-dom'
-import bannerImg from '../../../../public/Images/aboutVideo.png'
+import bannerImg from '../../../../public/Images/aboutVideo.webp'
 import team1 from '../../../../public/Images/team/team2.webp'
 import team2 from '../../../../public/Images/team/team7.webp'
 import team3 from '../../../../public/Images/team/team6.webp'
