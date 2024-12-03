@@ -6,7 +6,7 @@ import cpl from "../../../../public/Images/social/capul.webp";
 import car from "../../../../public/Images/social/car.webp";
 import Dog from "../../../../public/Images/social/dog.webp";
 import headphone from "../../../../public/Images/social/headphone.webp";
-import hotDog from "../../../../public/Images/social/hotdog.webp";
+import hotDog from "../../../../public/Images/social/hotDog.webp";
 import light from "../../../../public/Images/social/light.webp";
 import pet from "../../../../public/Images/social/pet.webp";
 import MobileFooter from "./MobileFooter";

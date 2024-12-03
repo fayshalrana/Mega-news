@@ -29,14 +29,15 @@ const AboutUs = () => {
             <div className="">
               <p className='text-[18px] leading-[34px] lowercase '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat.</p>
             </div>
-            <div className="relative w-full h-full rounded-[12px] overflow-hidden">
+            <div className="relative w-full h-full rounded-[12px] overflow-hidden flex items-center">
               {/* <AboutVideo/> */}
-              <img className='w-full h-full object-cover' src={bannerImg} alt="" />
-              <div className="absolute w-full h-full flex justify-center items-center top-0 left-0">
+              {/* <img className='w-full h-full object-cover' src={bannerImg} alt="" /> */}
+              {/* <div className="absolute w-full h-full flex justify-center items-center top-0 left-0">
                 <div className="w-[6rem] h-[6rem] bg-white/70 cursor-pointer flex justify-center items-center rounded-full">
                   <FaPlay className='text-[#F81539] text-[3rem] pl-[6px]' />
                 </div>
-              </div>
+              </div> */}
+              <AboutVideo />
             </div>
           </div>
         </div>

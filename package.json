@@ -19,12 +19,14 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
+    "react-player": "^2.16.0",
     "react-router-dom": "^6.21.1",
-    "react-video-js-player": "^1.1.1",
     "recharts": "^2.10.4",
     "sort-by": "^0.0.2",
     "swiper": "^11.0.5",
-    "venobox": "^2.1.4"
+    "venobox": "^2.1.4",
+    "watchpack": "^2.4.2",
+    "webpack": "^5.96.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

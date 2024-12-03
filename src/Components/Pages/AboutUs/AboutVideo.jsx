@@ -1,16 +1,13 @@
 import React from 'react'
-import VideoPlayer from 'react-video-js-player';
+import ReactPlayer from 'react-player'
 import poster from "../../../..//public/Images/aboutVideo.webp"
-import video from "../../../..//public/Video/video.mp4"
+
 
 const AboutVideo = () => {
-  const videoSrc = video;
+  const videoSrc = "https://youtu.be/7tFyOcfEUQA?si=qYza_dqxdFRZ3nEs";
   return (
     <div>
-      <VideoPlayer
-        src={videoSrc}
-        poster={poster}
-      />
+      <ReactPlayer url={videoSrc} playing="true" controls="true"/>
     </div>
   )
 }
